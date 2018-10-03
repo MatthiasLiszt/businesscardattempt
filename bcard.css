@@ -1,0 +1,72 @@
+@page{
+ size: 9.1cm 6.1cm;
+ bleed: 0.3cm;
+}
+
+body{
+ font-family: "Helvetica",sans-serif;
+ font-size: 10pt;
+ padding: 3em;
+ 
+}
+
+body img{
+ width: 5em;
+}
+
+#main{
+ display: flex;
+ flex-direction: row;
+}
+
+#web{
+ padding-top: 0.3em;
+ color: red;
+}
+
+#frontside{
+ //border: 1px black solid;
+ //padding: 0.3cm;
+ //width: 9.1cm;
+ //height: 6.1cm;
+}
+
+#wrapper{
+ //padding-left: 15%;
+ //padding-top: 12%;
+}
+
+#backside{
+ font-size: 6.5pt;
+}
+
+#backside img{
+ width: 2.8em;
+} 
+
+#backside figcaption{
+ color: red;
+ font-weight: bold;
+}
+
+#backside h5{
+ font-weight: normal;
+ margin: 0em;
+}
+
+#backside p{
+ margin: 0.1em;
+}
+
+#backside h3{
+ margin-bottom: 0.1em;
+}
+
+#backside div{
+ clear: right;
+}
+
+#backside figure{
+ float: right;
+}
+

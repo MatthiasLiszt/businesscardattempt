@@ -6,8 +6,9 @@
 body{
  font-family: "Helvetica",sans-serif;
  font-size: 10pt;
- padding: 3em;
- 
+ padding-top: 3em;
+ padding-left: 3em;
+ padding-bottom: 0em;
 }
 
 body img{
@@ -38,10 +39,11 @@ body img{
 
 #backside{
  font-size: 6.5pt;
+ margin-top: -2.8em;
 }
 
 #backside img{
- width: 2.8em;
+ width: 36pt;
 } 
 
 #backside figcaption{
@@ -55,11 +57,12 @@ body img{
 }
 
 #backside p{
- margin: 0.1em;
+ margin: 2pt;
+ font-size: 0.8em;
 }
 
 #backside h3{
- margin-bottom: 0.1em;
+ margin-bottom: 2pt;
 }
 
 #backside div{
